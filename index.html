@@ -34,6 +34,7 @@
                     backgroundImage: {
                         'about_us': "url('./assets/vector.png')",
                         'form_bg': "url('./assets/bg.jpg')",
+                        'meets_bg': "url('./assets/cool-background.png')",
 
                     }
 
@@ -122,9 +123,12 @@
     <!-- main section  -->
     <main class="bg-gray-100">
         <!-- about us section  -->
-        <section class=" py-12">
+        <section class="py-12">
+            <div class="lg:pl-12 2xl:pl-28 hidden lg:block">
+                <img src="./assets/Vector.png" alt="">
+            </div>
             <div
-                class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:py-16 md:px-0 px-6 justify-self-end items-start bg-about_us bg-no-repeat">
+                class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:py-16 md:px-0 px-6 justify-self-end items-start">
                 <div class="space-y-8 flex flex-col items-center lg:items-start">
                     <div>
                         <button class="btn bg-white shadow rounded-3xl">
@@ -292,9 +296,139 @@
         </section>
         <!-- latest work section ends here  -->
 
+        <!-- creative section  -->
+         <!-- our teams section starts here  -->
+
+        <section class="lg:py-24 py-8 bg-meets_bg bg-no-repeat bg-center bg-cover">
+            <div class="container mx-auto px-6 lg:px-0">
+                <div class="text-center space-y-6 mb-6 lg:mb-8">
+                    <h2 class="text-2xl lg:text-4xl font-bold">Meet the Minds Behind Our Projects</h2>
+                    <div class="flex flex-col lg:flex-row items-center justify-center gap-4">
+                        <p class="text-start">Our talented team turns vision into reality, delivering exceptional results for you <br class="hidden lg:block"> every step of the way. With a focus on quality and innovation, we are dedicated <br class="hidden lg:block">
+                             to making your real estate journey seamless and successful.- </p>
+                        <div>
+                            <div class="avatar">
+                                <div class="w-24 rounded-full">
+                                  <img src="./assets/team/ceo.jpg" />
+                                </div>
+                              </div>
+                            <h5 class="text-lg font-bold">Rosalina D. William</h5>
+                        <small class="text-orange-600 font-bold">Ceo, Rinterio</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- team cards  -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-6 lg:px-16">
+
+                <!-- card 1  -->
+                    <div class="bg-gray-100 border p-4 rounded-xl shadow space-y-4 text-center">
+                        <figure class="">
+                        <img class="rounded-xl" src=" ./assets/team/team-1.jpg" alt="" />
+                        </figure>
+                        <div class="">
+                            <h5 class="text-xl font-bold">Damble D. Browni</h5>
+                            <small class="text-orange-600 font-bold">Head of Construction & COO, Renterio</small>
+                        </div>
+                        <div class="space-x-4 text-xl">
+                            <i class="fa-brands fa-facebook hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-twitter hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-linkedin hover:text-orange-600 duration-300 ease-in-out"></i>
+                        </div>
+                    </div>
+                    <!-- card 2  -->
+                    <div class="bg-gray-100 border p-4 rounded-xl shadow-xl space-y-4 text-center">
+                        <figure class="">
+                        <img class="rounded-xl" src=" ./assets/team/team2.jpg" alt="" />
+                        </figure>
+                        <div class="">
+                            <h5 class="text-xl font-bold">Miranda H. Halim</h5>
+                            <small class="text-orange-600 font-bold">Cheif Architect</small>
+                        </div>
+                        <div class="space-x-4 text-xl">
+                            <i class="fa-brands fa-facebook hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-twitter hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-linkedin hover:text-orange-600 duration-300 ease-in-out"></i>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="bg-gray-100 border p-4 rounded-xl shadow-xl space-y-4 text-center">
+                        <figure class="">
+                        <img class="rounded-xl" src=" ./assets/team/team3.jpg" alt="" />
+                        </figure>
+                        <div class="">
+                            <h5 class="text-xl font-bold">Kelian Anderson</h5>
+                            <small class="text-orange-600 font-bold">Chief Engineer</small>
+                        </div>
+                        <div class="space-x-4 text-xl">
+                            <i class="fa-brands fa-facebook hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-twitter hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-linkedin hover:text-orange-600 duration-300 ease-in-out"></i>
+                        </div>
+                    </div>
+                    <!-- card4  -->
+                    <div class="bg-gray-100 border p-4 rounded-xl shadow-xl space-y-4 text-center hidden md:block">
+                        <figure class="">
+                        <img class="rounded-xl" src=" ./assets/team/team4.jpg" alt="" />
+                        </figure>
+                        <div class="">
+                            <h5 class="text-xl font-bold">Aiden Benjamin</h5>
+                            <small class="text-orange-600 font-bold">Civil Engineer</small>
+                        </div>
+                        <div class="space-x-4 text-xl">
+                            <i class="fa-brands fa-facebook hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-twitter hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-linkedin hover:text-orange-600 duration-300 ease-in-out"></i>
+                        </div>
+                    </div>
+                    <!-- card 5 -->
+                    <div class="bg-gray-100 border p-4 rounded-xl shadow-xl space-y-4 text-center hidden md:block">
+                        <figure class="">
+                        <img class="rounded-xl" src=" ./assets/team/team5.jpg" alt="" />
+                        </figure>
+                        <div class="">
+                            <h5 class="text-xl font-bold">James Carter</h5>
+                            <small class="text-orange-600 font-bold">IT Specialists</small>
+                        </div>
+                        <div class="space-x-4 text-xl">
+                            <i class="fa-brands fa-facebook hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-twitter hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-linkedin hover:text-orange-600 duration-300 ease-in-out"></i>
+                        </div>
+                    </div>
+                    <!-- card 6 -->
+                    <div class="bg-gray-100 border p-4 rounded-xl shadow-xl space-y-4 text-center">
+                        <figure class="">
+                        <img class="rounded-xl" src=" ./assets/team/team-6.jpg" alt="" />
+                        </figure>
+                        <div class="">
+                            <h5 class="text-xl font-bold">James Carter</h5>
+                            <small class="text-orange-600 font-bold">Real Estate Agent</small>
+                        </div>
+                        <div class="space-x-4 text-xl">
+                            <i class="fa-brands fa-facebook hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-twitter hover:text-orange-600 duration-300 ease-in-out"></i>
+                            <i class="fa-brands fa-linkedin hover:text-orange-600 duration-300 ease-in-out"></i>
+                        </div>
+                    </div>
+                </div>  
+                <div class="text-center lg:pt-16 py-6">
+                    <button class="btn bg-[#ABEF5F33] shadow rounded-3xl font-bold">
+                        <i class="fa-solid fa-arrow-right-long"></i>See All  
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- our teams section ends here  -->
+
+
+
         <!-- discuss next project  -->
-        <section class="py-8 lg:py-16 bg-form_bg bg-no-repeat  bg-cover bg-center">
-            <div class="container mx-auto md:px-0 px-6 lg:p-28">
+        <section class="py-8 lg:py-24 bg-form_bg bg-no-repeat  bg-cover bg-center">
+            <div class="container mx-auto md:px-0 px-6 lg:px-32">
                 <div class="text-center space-y-6 mb-6 lg:mb-8">
                     <div>
                         <button class="btn bg-[#ABEF5F33] shadow rounded-3xl font-bold">
