@@ -49,23 +49,10 @@
     <header class="bg-gradient-to-b from-gray-100 to-white">
         <div class="container mx-auto">
             <!-- navbar start  -->
-            <nav class="py-8">
-                <div class="navbar">
-                    <div class="navbar-start flex flex-row-reverse justify-between w-full">
-                        <div class="dropdown">
-                            <div tabindex="0" role="button"
-                                class="btn btn-ghost lg:hidden rounded-full bg-white p-2 shadow size-12">
-                                <i class="fa-solid fa-bars"></i>
-                            </div>
-                            <ul tabindex="0"
-                                class="menu menu-sm -left-28 dropdown-content rounded-box z-[1] w-36 mt-3 shadow bg-base-100 ">
-                                <li class="py-1"><a>Home</a></li>
-                                <li class="py-1"><a>Services</a></li>
-                                <li class="py-1"><a>Portfolio</a></li>
-                                <li class="py-1"><a>Blogs</a></li>
-                                <li class="py-1"><a>Contact Us</a></li>
-                            </ul>
-                        </div>
+            <nav class="py-8 px-2">
+                <div class="flex justify-between items-center">
+                    <div class="navbar-start">
+                        
                         <div>
                             <a class="flex items-center gap-2 cursor-pointer">
                                 <i class="fa-solid fa-arrow-right-long -rotate-45 bg-btn_green rounded-full p-2"></i>
@@ -92,6 +79,20 @@
                                 <i class="fa-solid fa-arrow-right-long -rotate-45 bg-black text-white rounded-full p-2"></i>
                             </a>
                         </button>
+                    </div>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button"
+                            class="btn btn-ghost lg:hidden rounded-full bg-white p-2 shadow size-12">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm -left-28 dropdown-content rounded-box z-[1] w-36 mt-3 shadow bg-base-100 ">
+                            <li class="py-1"><a>Home</a></li>
+                            <li class="py-1"><a>Services</a></li>
+                            <li class="py-1"><a>Portfolio</a></li>
+                            <li class="py-1"><a>Blogs</a></li>
+                            <li class="py-1"><a>Contact Us</a></li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -164,7 +165,7 @@
 
         </section>
 
-        <!-- how we work section  -->
+        <!-- Our work process section  -->
         <section>
             <div class="md:px-0 px-6 container mx-auto md:space-y-6 space-y-4 lg:mb-24 mb-8">
                 <div class="text-center space-y-6">
@@ -207,6 +208,89 @@
             </div>
 
         </section>
+
+        <!-- latest work section  -->
+        <section class="lg:bg-white py-8 lg:py-24 px-6 lg:px-0">
+            <div class="container mx-auto">
+                <div class="text-center space-y-6 mb-6 lg:mb-8">
+                    <div>
+                        <button class="btn bg-[#ABEF5F33] shadow rounded-3xl font-bold">
+                            <i class="fa-solid fa-arrow-right-long"></i>Explore our Latest works
+                        </button>
+                    </div>
+                    <h2 class="text-2xl lg:text-4xl font-bold">Our Latest Portfolio</h2>
+                    <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents.</p>
+                </div>
+                <!-- cards  -->
+                <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+                    <!-- card 1 -->
+                     <div class="flex flex-col lg:flex-row gap-7 p-6 rounded-2xl border bg-white lg:col-span-3 order-1">
+                        <!-- image  -->
+                        <div>
+                            <img class="w-full" src="./assets/img1.png" alt="">
+                        </div>
+                        <!-- text  -->
+                        <div>                           
+                            <h4 class="text-xl lg:text-2xl font-extrabold">Commercial</h4>
+                            <p class="py-4">The barn house captivates with its blend <br> of rustic charm and modern sophistication, featuring
+                                weathered wood, sleek metal accents.</p>
+                            <button class="cursor-pointer flex items-center gap-2 pt-1">
+                                <a>
+                                    <span class="lg:text-xl font-extrabold">Rinterio</span>
+                                    <i class="fa-solid fa-arrow-right-long -rotate-45 bg-btn_green rounded-full p-2"></i>
+                                </a>
+                            </button>
+                        </div>
+                     </div>                    
+                    <!-- card 2 -->
+                     <div class="p-6 rounded-2xl border bg-white order-2">
+                        <div>
+                            <img class="w-full" src="./assets/img2.png" alt="">
+                        </div>
+                     </div>
+
+                    <!-- card 3 -->
+                    <div class="p-6 rounded-2xl border bg-white order-5 lg:order-3">
+                        <div>
+                            <img class="w-full" src="./assets/img3.png" alt="">
+                        </div>
+                    </div>                 
+                    <!-- card 4 -->
+                    <div class="flex flex-col lg:flex-row gap-7 p-6 rounded-2xl border bg-white lg:col-span-2 order-4">
+                        <!-- image  -->
+                        <div class="">
+                            <img class="w-full h-full " src="./assets/img4.png" alt="">
+                        </div>
+                        <!-- text  -->
+                        <div>                           
+                            <h4 class="text-xl lg:text-2xl font-extrabold">Commercial</h4>
+                            <p class="py-4">The barn house captivates with its blend <br> of rustic charm and modern sophistication, featuring
+                                weathered wood, sleek metal accents.</p>
+                            <button class="cursor-pointer flex items-center gap-2 pt-1">
+                                <a>
+                                    <span class="lg:text-xl font-extrabold">Rinterio</span>
+                                    <i class="fa-solid fa-arrow-right-long -rotate-45 bg-btn_green rounded-full p-2"></i>
+                                </a>
+                            </button>
+                        </div>
+                     </div>                     
+                    <!-- card 5 -->
+                    <div class="p-6 rounded-2xl border bg-white order-3 lg:order-5">
+                        <div>
+                            <img class="w-full" src="./assets/img5.png" alt="">
+                        </div>
+                    </div>
+                    <!-- card 6-->
+                    <div class="p-6 rounded-2xl border bg-white order-6 block lg:hidden">
+                        <div>
+                            <img class="w-full" src="./assets/img5.png" alt="">
+                        </div>
+                    </div>                                     
+                </div>
+            </div>
+        </section>
+        <!-- latest work section ends here  -->
 
         <!-- discuss next project  -->
         <section class="py-8 lg:py-16 bg-form_bg bg-no-repeat  bg-cover bg-center">
